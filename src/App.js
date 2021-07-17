@@ -37,9 +37,7 @@ const App = () => {
     fetchMonsters();
   }, []);
 
-  if (error) {
-    return <div className="app">{error.message}</div>;
-  }
+ 
 
   return (
     <div className="app">
